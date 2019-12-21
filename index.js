@@ -44,7 +44,7 @@ router.get('/todo/:id', TodosControllers.show)
 
 //POST route: receive json body request, from user input, then push to todos array
 //Masukan Data Lola
-router.post('/todo', authenticated ,TodosControllers.store)
+router.post('/todo',TodosControllers.store)
 
 
 //PATCH route: receive json body request, from user input, then push to todos array
