@@ -16,12 +16,11 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "DATABASE_URL",
-    "password": null,
-    "database": "postgres",
-    "host": "postgres",
-    "dialect": {
-    "ssl": true
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   }
-}
 }
