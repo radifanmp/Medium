@@ -35,7 +35,7 @@ router.post("/login", AuthController.login)
 
 //router.get('/endpoint', controller.naming_func)
 
-router.get('/todos', authenticated, TodosControllers.index)
+router.get('/todos', TodosControllers.index)
 
 //GET detail route: send the todo obj, by received id request params
 //Ngambil Data Array nya lebih spesifik atau 1 data.
